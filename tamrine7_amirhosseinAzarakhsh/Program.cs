@@ -135,25 +135,18 @@ class student
         {
             case double n when (n <= 20 && n > 17):
                 return "A";
-                break;
             case double n when (n <= 17 && n > 15):
                 return "B";
-                break;
             case double n when (n <= 15 && n > 13):
                 return "C";
-                break;
             case double n when (n <= 13 && n > 10):
                 return "D";
-                break;
             case double n when (n <= 10 && n > 7):
                 return "E";
-                break;
             case double n when (n <= 7 && n > 3):
                 return "F";
-                break;
             case double n when (n <= 3 && n >= 0):
                 return "H";
-                break;
         }
         return "";
     }
